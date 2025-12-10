@@ -6,19 +6,15 @@ import 'Searchpage.dart';
 
 class Indexpage extends StatefulWidget {
   const Indexpage({super.key});
-
   @override
-  State<Indexpage> createState() => _IndexpageState();
-}
+  State<Indexpage> createState() => _IndexpageState();}
 class _IndexpageState extends State<Indexpage> {
   int _bottomNavbar=0;
   List<Widget>_pages=[
     Homepage(),
     Searchpage(),
     Settingpage(),
-    Accountpage(),
-
-  ];
+    Accountpage(),];
   String _gettitle(int index){
     switch (index){
       case 0:
@@ -30,9 +26,7 @@ class _IndexpageState extends State<Indexpage> {
       case 3:
         return 'صفحة الحساب';
       default :
-        return 'data';
-    }
-  }
+        return 'data';}}
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -49,8 +43,7 @@ class _IndexpageState extends State<Indexpage> {
         onTap: (index){
           setState(() {
             _bottomNavbar=index;
-          });
-        },
+          });},
         unselectedItemColor: Colors.grey[700],
         selectedItemColor: Colors.blue[800],
         items: [
