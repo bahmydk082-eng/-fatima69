@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
              color: Colors.purple.shade50,
              child: Column(
                children: [
+                 SizedBox(height: 10,),
                  CircleAvatar(
                    radius: 50,
                    backgroundImage: Image.asset("image/img.png").image,
