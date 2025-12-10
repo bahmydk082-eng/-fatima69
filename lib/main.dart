@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
          children: [
            Container(
              width: double.infinity,
-             color: Colors.purple.shade50,
+             color: Colors.pink.shade50,
              child: Column(
                children: [
                  SizedBox(height: 10,),
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
                    backgroundImage: Image.asset("image/img.png").image,
                  ),
                  Divider(),
-                Text('Shahad Anwar',style: TextStyle(color: Color(0xFFD81B60),fontSize: 20),),
+                Text('fatima hamdy',style: TextStyle(color: Color(0xFFD81B60),fontSize: 20),),
                  Divider(),
                  Text('Devloper',style: TextStyle(color: Color(0xFFD81B60),fontSize: 20),),
                  Divider(),
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                    children: [
                      Text('Email:',style: TextStyle(color: Color(0xFFD81B60),fontSize: 20),),
-                     Text('shahadanwar20@gmail.com',style: TextStyle(color: Color(0xFFD81B60),fontSize: 20),),
+                     Text('fatimahmdy20@gmail.com',style: TextStyle(color: Color(0xFFD81B60),fontSize: 20),),
                    ],
                  ),
                  Divider(),
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                    children: [
                      Text('Phone:',style: TextStyle(color: Colors.pink,fontSize: 20),),
-                     Text('775783903',style: TextStyle(color: Colors.pink,fontSize: 20),),
+                     Text('775683603',style: TextStyle(color: Colors.pink,fontSize: 20),),
                    ],
                  ),
                  Divider(),
